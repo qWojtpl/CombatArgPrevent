@@ -1,0 +1,4 @@
+message: "&cYou can't send this command. This player is in combat."
+commands:
+  - "/tpaccept %player%"
+  - "/cmi tpaccept %player%"

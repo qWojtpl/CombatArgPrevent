@@ -1,0 +1,7 @@
+name: CombatArgPrevent
+version: '${project.version}'
+main: pl.combatargprevent.CombatArgPrevent
+api-version: 1.19
+depend: [DeluxeCombat]
+authors: [Assasin98980]
+description: Prevent from sending commands when argument-player is in combat on your Minecraft server
