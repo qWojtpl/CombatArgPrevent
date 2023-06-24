@@ -24,7 +24,7 @@ public class Events implements Listener {
             String cmd = dataHandler.getCommands().get(givenSplit[0]);
             String[] split = cmd.split(" ");
             for(int i = 0; i < givenSplit.length; i++) {
-                if(i >= split.length) return;
+                if(i >= split.length - 1) return;
                 if(split[i].equals("%player%")) {
                     Player p = PlayerUtil.getPlayer(givenSplit[i]);
                     if(p == null) return;
